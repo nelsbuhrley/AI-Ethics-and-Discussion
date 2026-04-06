@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<!-- ── Hero ──────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Perspectives on Technology &amp; Learning</div>
+    <h1 class="hero-title">{{ page_title }}</h1>
+    {% if page_subtitle %}
+    <p class="hero-subtitle">{{ page_subtitle }}</p>
+    {% endif %}
+    <div class="hero-actions">
+      {% if pages %}
+      <a href="#topics" class="btn btn-primary">Explore Topics</a>
+      {% endif %}
+      {% if qa_items %}
+      <a href="#qa" class="btn btn-outline">View Q&amp;A</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="hero-decoration" aria-hidden="true">
+    <div class="hero-blob hero-blob--1"></div>
+    <div class="hero-blob hero-blob--2"></div>
+  </div>
+</section>
+
+<!-- ── Main content ──────────────────────────────────────────── -->
+<section class="content-section">
+  <div class="container">
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+<!-- ── Subpage cards ─────────────────────────────────────────── -->
+{% if pages %}
+<section class="topics-section" id="topics">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Explore Topics</h2>
+      <p class="section-subtitle">Dive deeper into specific aspects of AI in education.</p>
+    </div>
+    <div class="card-grid">
+      {% for page in pages %}
+      <a href="{{ base_url }}/pages/{{ page.slug }}/" class="card">
+        <div class="card-inner">
+          <h3 class="card-title">{{ page.title }}</h3>
+          {% if page.description %}
+          <p class="card-description">{{ page.description }}</p>
+          {% endif %}
+          <span class="card-cta">Read more <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ── Q&A section ───────────────────────────────────────────── -->
+{% if qa_items %}
+<section class="qa-section" id="qa">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Questions &amp; Answers</h2>
+      <p class="section-subtitle">Common questions about AI in education — answered.</p>
+    </div>
+    <div class="qa-list" role="list">
+      {% for item in qa_items %}
+      <div class="qa-item" role="listitem">
+        <button class="qa-trigger" aria-expanded="false">
+          <span class="qa-question-text">{{ item.question }}</span>
+          <span class="qa-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="5 8 10 13 15 8"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="qa-answer" hidden>
+          <div class="qa-answer-inner">{{ item.answer }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}
