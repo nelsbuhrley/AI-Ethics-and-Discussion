@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}{{ page_title }} | AI in Education{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site_description }}{% endblock %}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ base_url }}/static/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="{{ base_url }}/" class="nav-logo" aria-label="{{ site_title }} home">
+        <span class="logo-icon" aria-hidden="true">⚡</span>
+        <span class="logo-text">AI in Education</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="{{ base_url }}/" class="nav-link{% if is_home %} active{% endif %}">Home</a>
+        {% for page in pages %}
+        <a href="{{ base_url }}/pages/{{ page.slug }}/"
+           class="nav-link{% if current_slug == page.slug %} active{% endif %}">{{ page.title }}</a>
+        {% endfor %}
+        {% if qa_items %}
+        <a href="#qa" class="nav-link nav-qa-link">Q&amp;A</a>
+        {% endif %}
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── Page Content ───────────────────────────────────────── -->
+  <main id="main-content">
+    {% block main %}{% endblock %}
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="footer-copy">&copy; {{ current_year }} {{ site_title }}. Exploring AI in Education.</p>
+      <p class="footer-note">Built with Python &amp; GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="{{ base_url }}/static/js/main.js"></script>
+</body>
+</html>
