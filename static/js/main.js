@@ -82,16 +82,11 @@
 
 /* ── Active nav link highlight ────────────────────────────── */
 (function () {
-  const current = window.location.pathname;
+  const currentUrl = window.location.href.split('#')[0]; // Remove hash
   document.querySelectorAll('.nav-link').forEach((link) => {
     link.classList.remove('active');
-    const href = link.getAttribute('href');
-    if (!href) return;
-    if (href === '/') {
-      if (current === '/' || current === '' || current.endsWith('index.html')) {
-        link.classList.add('active');
-      }
-    } else if (current.startsWith(href)) {
+    const linkUrl = link.href.split('#')[0]; // Remove hash
+    if (linkUrl === currentUrl) {
       link.classList.add('active');
     }
   });
