@@ -6,7 +6,7 @@ description: How AI tools are being woven into everyday teaching and learning �
 
 # Classroom Integration
 
-Integrating AI into the classroom is not a single event — it's an ongoing process of experimentation, reflection, and adjustment. This page explores what that process looks like in practice.
+Integrating AI into the classroom is not a single event — it's an ongoing process of experimentation, reflection, and adjustment. The implication of AI should be focused on helping teachers offload routine tasks and spend more time on high-value human interaction that AI cannot replace |src|'roose_humanity_2021'|'short'|, and helping students access personalized support and feedback that meets them where they are.
 
 ## Where AI Is Already Present
 

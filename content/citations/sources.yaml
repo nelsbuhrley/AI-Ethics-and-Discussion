@@ -45,3 +45,11 @@ sources:
     title: "Interview with an educator about the impact of AI on teaching and learning"
     type: "interview"
     publisher: "Confidential"
+
+  - id: "roose_humanity_2021"
+    author: "Roose, Kevin"
+    year: 2021
+    title: "The value of your humanity in an automated future"
+    url: "https://www.ted.com/talks/kevin_roose_the_value_of_your_humanity_in_an_automated_future"
+    type: "video"
+    publisher: "TED Conferences"
