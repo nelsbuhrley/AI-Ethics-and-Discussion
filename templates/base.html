@@ -30,6 +30,7 @@
         <a href="{{ base_url }}/pages/{{ page.slug }}/"
            class="nav-link{% if current_slug == page.slug %} active{% endif %}">{{ page.title }}</a>
         {% endfor %}
+        <a href="{{ base_url }}/citations.html" class="nav-link{% if current_slug == 'sources' %} active{% endif %}">Sources</a>
         {% if qa_items %}
         <a href="#qa" class="nav-link nav-qa-link">Q&amp;A</a>
         {% endif %}
@@ -45,7 +46,7 @@
   <!-- ── Footer ─────────────────────────────────────────────── -->
   <footer class="site-footer">
     <div class="footer-container">
-      <p class="footer-copy">&copy; {{ current_year }} {{ site_title }}. Exploring AI in Education.</p>
+      <p class="footer-copy">&copy; {{ current_year }} {{ site_title }}. Nels Buhrley.</p>
       <p class="footer-note">Built with Python &amp; GitHub Pages.</p>
     </div>
   </footer>

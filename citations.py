@@ -15,12 +15,17 @@ from pathlib import Path
 class CitationManager:
     """Manages citations from YAML source and formats them according to style."""
     
-    def __init__(self, sources_path: str = "sources.yaml"):
+    def __init__(self, sources_path: str = "sources.yaml", base_url: str = ""):
         """Initialize citation manager with sources file."""
         self.sources_path = Path(sources_path)
+        self.base_url = (base_url or "").rstrip("/")
         self.sources = {}
         self.citations_used = {}  # Track which citations are used in content
         self._load_sources()
+
+    def _citation_href(self, source_id: str) -> str:
+        """Return the site URL for a source anchor on the citations page."""
+        return f"{self.base_url}/citations.html#cite-{source_id}"
     
     def _load_sources(self):
         """Load sources from YAML file."""
@@ -110,9 +115,15 @@ class CitationManager:
             
             # Format appropriately
             if format_type == 'short':
-                return self.format_short(source_id)
+                label = self.format_short(source_id)
             else:  # long
-                return self.format_long(source_id)
+                label = self.format_long(source_id)
+
+            if source_id in self.sources:
+                href = self._citation_href(source_id)
+                return f"[{label}]({href})"
+
+            return label
         
         processed = re.sub(pattern, replace_citation, content)
         return processed, used_sources

@@ -77,7 +77,7 @@ else:
     BASE_URL = os.environ.get("SITE_BASE_URL", "")
 
 # Initialize citation manager
-citation_manager = CitationManager(str(SOURCES_FILE))
+citation_manager = CitationManager(str(SOURCES_FILE), base_url=BASE_URL)
 
 # ---------------------------------------------------------------------------
 # Markdown processor
