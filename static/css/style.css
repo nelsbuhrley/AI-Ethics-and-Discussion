@@ -521,7 +521,12 @@ button { cursor: pointer; font-family: inherit; }
   font-size: 0.95rem;
   line-height: 1.75;
 }
-.qa-answer-inner p { margin: 0 0 1em; }
+.qa-answer-inner p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
 .qa-answer-inner p:last-child { margin-bottom: 0; }
 .qa-answer-inner a { color: var(--clr-brand); }
 .qa-answer-inner ul, .qa-answer-inner ol { padding-left: 1.4em; margin-bottom: 0.8em; }
