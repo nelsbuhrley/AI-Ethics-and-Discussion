@@ -26,6 +26,19 @@ class CitationManager:
     def _citation_href(self, source_id: str) -> str:
         """Return the site URL for a source anchor on the citations page."""
         return f"{self.base_url}/citations.html#cite-{source_id}"
+
+    def _external_source_link(self, source: dict) -> tuple[str, str] | None:
+        """Return (href, label) for DOI/URL link, preferring DOI when present."""
+        doi = str(source.get('doi', '')).strip()
+        if doi:
+            doi_href = doi if doi.lower().startswith('http') else f"https://doi.org/{doi}"
+            return doi_href, "View DOI"
+
+        url = str(source.get('url', '')).strip()
+        if url:
+            return url, "View Source"
+
+        return None
     
     def _load_sources(self):
         """Load sources from YAML file."""
@@ -163,9 +176,14 @@ class CitationManager:
             # Use short format as the key, long as description
             short = self.format_short(source_id)
             long = self.format_long(source_id)
+            external = self._external_source_link(source)
             
             html += f'  <dt id="cite-{source_id}" class="citation-entry">{short}</dt>\n'
-            html += f'  <dd>{long}</dd>\n'
+            html += f'  <dd>{long}'
+            if external:
+                href, label = external
+                html += f' <a href="{href}" class="citation-external" target="_blank" rel="noopener noreferrer">{label}</a>'
+            html += '</dd>\n'
         
         html += '</dl>\n'
         html += '</div>\n'

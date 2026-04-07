@@ -1,19 +1,4 @@
 sources:
-  - id: "openai_gpt4"
-    author: "OpenAI"
-    year: 2023
-    title: "GPT-4 Technical Report"
-    url: "https://cdn.openai.com/papers/gpt-4.pdf"
-    type: "report"
-    publisher: "OpenAI"
-
-  - id: "kaplan_ethics"
-    author: "Kaplan, Andreas"
-    year: 2022
-    title: "The Ethics of Artificial Intelligence: A Critical Review"
-    url: "https://example.com/ethics"
-    type: "article"
-    publisher: "Journal of Ethics"
 
   - id: "gartner_ai_spending_2026"
     author: "Gartner"
@@ -22,3 +7,11 @@ sources:
     url: "https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026"
     type: "article"
     publisher: "Gartner"
+
+  - id: "mccoy_bredderman_ai"
+    author: "McCoy, Julia; Bredderman, Will" 
+    year: 2024
+    title: "Social media exchange regarding the role of AI in education and a satirical comparison to physical education"
+    url: "https://www.threads.com/@raywatdeonandan/post/DWHx6wGFSyd/"
+    type: "social media post"
+    publisher: "Threads"
