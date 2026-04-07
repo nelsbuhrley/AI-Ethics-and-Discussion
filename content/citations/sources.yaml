@@ -38,3 +38,11 @@ sources:
     url: "https://collateralmurder.wikileaks.org/"
     type: "website"
     publisher: "WikiLeaks"
+
+  - id: "ok_go_ideas"
+    author: "Kulash, Damian"
+    year: 2017
+    title: "How to find a wonderful idea"
+    url: "https://www.ted.com/talks/ok_go_how_to_find_a_wonderful_idea"
+    type: "video"
+    publisher: "TED Conferences"

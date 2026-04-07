@@ -19,3 +19,9 @@ Like any powerful tool, the outcome depends on how thoughtfully we deploy it.
 This is one of the most contested questions in education right now, and I don't think there's a single right answer. It depends heavily on **the learning objective**. If the goal is to develop a student's own analytical voice, unrestricted AI use undermines that. If the goal is research synthesis or exploring a concept quickly, AI can be a legitimate scaffold.
 
 What I believe is clear: blanket bans are largely unenforceable and may simply teach students to hide their AI use. Instead, educators should redesign assessments to emphasize process, reflection, and in-person demonstration of understanding.
+
+## How can AI be used to find new ideas?
+
+AI should not be viewed as a machine that "thinks" of ideas for us, but rather as a highly efficient "sandbox" for discovery. Creative breakthroughs are rarely the result of a single moment of inspiration; instead, they are "found" through a process of play and experimentation within a set of constraints |src|'ok_go_ideas'|'TED Talk'|.
+
+By using AI, we can build these sandboxes at an unprecedented scale. AI allows us to rapidly iterate through thousands of permutations and "what-if" scenarios that would be impossible to explore manually. The goal isn't to let the AI provide the final answer, but to use it to generate the unexpected collisions and "wonderful" surprises that a human can then recognize, refine, and claim as a new idea.
