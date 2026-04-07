@@ -28,14 +28,14 @@ I believe that we cannot say 'Because AI can do it, students shouldn't' but that
 
 > Yes, yes, yes. Because we humans can understand the meaning. That is something which is very, very lacking in AI. But most of the students just pack the knowledge without understanding the meaning of the knowledge, so that is not knowledge, that is just memorizing, and AI can do the same thing. So we have to think about a new type of education.|src|'arai_robot_exam_2017'|'short'|.
 
-I believe that this discussion leads to a question that is essential to consider in any decision on AI or education in general — *What are we trying to teach students, and why is this important to their lives?* This is a question that does not have a one size fits all answer.
+This leads to a question that is essential to consider in any decision on AI or education in general — *What are we trying to teach students, and why is this important to their lives?* This is a question that does not have a one size fits all answer.
 
 ## Emotional Impact
 
 Recently I was writing a piece on human rights and transparency in the intelligence arm United States DHS, over the course of my research I was studying the impact of [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) and [Wiki Leaks](https://wikileaks.org/) on government transparency. I came across a video that showed the murder of 2 journalists and 2 children by US air assets |src|'wikileaks_collateral_murder'|'short'|. As I was watching the video I cried, I then continued to write with emotion and when it came time to present my research I did so with passion. I already believed that transparency by the government was important, This experience cemented in me  why it is important.
 
-## What Should Students Do
+# What Should Students Do
 
-As students we must learn to ask that question of ourselves. You will be presented with opportunities to use AI in your schoolwork, it can be a valuable tool that will free up your time to work on other projects, learn more information, and improve yourself, but your use of AI can never cost you, and must always argument, opportunities to grow your understanding and skill.
+As students we must carefully consider how we want to us AI in our education. You will be presented with opportunities to use AI in your schoolwork, it can be a valuable tool that will free up your time to work on other projects, learn more information, and improve yourself, but your use of AI can never cost you, and must always argument, opportunities to grow your understanding and skill.
 
-It is also important as students to listen to your teachers, some will happily accept the use of AI in your assignments, others will be strongly opposed to it. Your integrity depends on your transparency with your educators. Be honest in all that you do. I have found that a open discussion about AI with a teacher almost always yields me a understanding of their goals and desires for my time in their class and helps me understand their AI 
+If you are too flippant in your use of AI you will forgo valuable learning opertunituies, and loose a type of substrate level intelligence that make humans, human
