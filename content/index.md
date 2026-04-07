@@ -10,19 +10,17 @@ Artificial Intelligence is changing the world in ways that few could have predic
 
 Some major decisions revolve around creativity, intellectual property, and education, while there is much to be said about the first two, I am currently a college student and my wife is a educator and so I have chosen to focus on AI in higher education.
 
-## What I Believe
+## A blessing and a curse
 
-I am cautiously optimistic. AI tools have incredible power to **personalize learning**, lower administrative overhead, and help students excell 
+I am cautiously optimistic. AI tools have incredible power to **personalize learning**, lower administrative overhead, and help students learn across a wider range of materials. Some of my concerns about AI include
 
-- **Equity** — Will AI widen the gap between well-resourced and under-resourced schools?
-- **Academic integrity** — How do we preserve the value of struggle and original thinking?
+- **Academic integrity & Critical thinking** — How do we preserve the value of struggle and original thinking?
 - **Teacher autonomy** — AI should assist educators, not replace their professional judgment.
 - **Data privacy** — Student data deserves the highest level of protection.
-- **Critical thinking** — Students must learn *with* AI, not merely *through* it.
 
 ## The Core Tension
 
-The most interesting question isn't whether AI belongs in schools — it's how we ensure that AI enhances human flourishing rather than diminishing it. Technology has always changed education: the printing press, the calculator, the internet. Each shift demanded that educators rethink what is worth teaching. This moment is no different, except the pace is faster and the stakes feel higher.
+The question before us isn't whether AI belongs in schools, the answer to that is yes — it's how can we use AI in a way that builds and supports human development rather than limiting it. Technology has always changed education: the printing press, the calculator, the internet. Each shift required massive changes in thinking from educators to decide what is worth teaching, and students to adapt and utilize newly available tools. This moment is no different.
 
 ## What I Hope For
 
