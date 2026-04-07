@@ -167,6 +167,35 @@ def file_to_html(path: Path) -> tuple[dict, str]:
     return {}, f"<p><em>Unsupported file type: {ext}</em></p>"
 
 
+def copy_markdown_image_assets(source_file: Path, output_dir: Path) -> None:
+    """Copy local markdown image assets so relative links resolve in built pages."""
+    if source_file.suffix.lower() not in {".md", ".markdown", ".txt"}:
+        return
+
+    raw = source_file.read_text(encoding="utf-8")
+    _, body = parse_front_matter(raw)
+
+    # Match markdown images: ![alt](path)
+    matches = re.findall(r"!\[[^\]]*\]\(([^)]+)\)", body)
+    for asset_ref in matches:
+        asset_ref = asset_ref.strip().strip("<>")
+        # Ignore web/data/anchor references
+        if asset_ref.startswith(("http://", "https://", "data:", "#")):
+            continue
+
+        # Remove optional title: path "title"
+        if " " in asset_ref and not asset_ref.startswith("/"):
+            asset_ref = asset_ref.split(" ", 1)[0]
+
+        asset_path = (source_file.parent / asset_ref).resolve()
+        if not asset_path.exists() or not asset_path.is_file():
+            continue
+
+        dest_path = output_dir / asset_ref
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(asset_path, dest_path)
+
+
 def extract_title(meta: dict, html: str, fallback: str) -> str:
     """Return the best title we can find for a page."""
     if "title" in meta:
@@ -322,6 +351,7 @@ def build() -> None:
     main_html = "<p>Welcome to AI Ethics and Discussion.</p>"
     if index_file:
         main_meta, main_html = file_to_html(index_file)
+        copy_markdown_image_assets(index_file, OUTPUT_DIR)
 
     main_qa = load_qa_items(CONTENT_DIR / "qa")
 
@@ -349,6 +379,7 @@ def build() -> None:
             qa_items = load_qa_items(page["qa_dir"])
             page_dir = pages_out / page["slug"]
             page_dir.mkdir(exist_ok=True)
+            copy_markdown_image_assets(page["source"], page_dir)
 
             tmpl = env.get_template("page.html")
             rendered = tmpl.render(

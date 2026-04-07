@@ -20,7 +20,7 @@ I recently saw a post online that made me chuckle
 
 ![A screenshot of a social media exchange. The top post is by Julia McCoy (@JuliaEMcCoy), who writes: "We are sending our kids to school to memorize facts that AI can retrieve in 0.3 seconds. We're grading them on essays that AI writes better than their teachers." Below it is a sarcastic reply from Will Bredderman (@WillBredderman) that reads: "Worst of all, gym classes are making them run miles an Uber could cover in less than a minute."](image.png)
 
-|src|'mccoy_bredderman_ai'|'long'|
+|src|'mccoy_bredderman_ai'|'short'|
 
 Despite the sarcastic nature of Mr. Bredderman's reply I believe that this hits the nail on the head educators don't ask students to " write a Pop-Culture, analysis for the sake of there being one more pop culture analysis in the world, It is to help [students] grow and [develop critical thinking skills]" |src|'head_writing_growth_2026'|'short'|
 
