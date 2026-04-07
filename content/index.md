@@ -36,6 +36,6 @@ I hope we build an educational ecosystem where:
 
 ### What can you expect
 
-On this page I have a two fold audience, students and educators. Some of the sections will be targeted to one groupe or the other, but I believe that these questions and topics need to be considered by all in the education system.
+On this website I have a two fold audience, students and educators. Some of the sections will be targeted to one groupe or the other, but I believe that these questions and topics need to be considered by all in the education system.
 
 *Explore the topics below to read my more detailed thoughts, and scroll down to the Q&A section for answers to common questions.*
