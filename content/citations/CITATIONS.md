@@ -108,7 +108,7 @@ Located in `citations.py`:
 from citations import CitationManager
 
 # Initialize
-manager = CitationManager("sources.yaml")
+manager = CitationManager("content/citations/sources.yaml")
 
 # Format a single citation
 short = manager.format_short("smith_2024")  # Returns: "Smith (2024)"
@@ -161,7 +161,7 @@ Default styles are in `static/css/style.css` under "Bibliography / Citations". C
 - Rebuild with `python build.py`
 
 **Site won't build?**
-- Ensure `sources.yaml` exists in project root
+- Ensure `sources.yaml` exists in `content/citations/`
 - Check YAML syntax (indentation matters!)
 - Verify all required fields are present
 

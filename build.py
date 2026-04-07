@@ -62,7 +62,7 @@ CONTENT_DIR  = Path("content")
 TEMPLATES_DIR = Path("templates")
 STATIC_DIR   = Path("static")
 OUTPUT_DIR   = Path("_site")
-SOURCES_FILE = Path("sources.yaml")
+SOURCES_FILE = Path("content/citations/sources.yaml")
 
 CONTENT_EXTENSIONS = {".md", ".markdown", ".txt", ".docx"}
 
