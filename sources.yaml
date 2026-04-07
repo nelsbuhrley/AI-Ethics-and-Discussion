@@ -14,3 +14,11 @@ sources:
     url: "https://example.com/ethics"
     type: "article"
     publisher: "Journal of Ethics"
+
+  - id: "gartner_ai_spending_2026"
+author: "Gartner"
+year: 2026
+title: "Gartner Says Worldwide AI Spending Will Total $2.5 Trillion in 2026"
+url: "https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026"
+type: "article"
+publisher: "Gartner"
