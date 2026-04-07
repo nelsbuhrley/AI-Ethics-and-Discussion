@@ -22,7 +22,18 @@ I recently saw a post online that made me chuckle
 
 |src|'mccoy_bredderman_ai'|'short'|
 
-Despite the sarcastic nature of Mr. Bredderman's reply I believe that this hits the nail on the head educators don't ask students to "write a Pop-Culture, analysis for the sake of there being one more pop culture analysis in the world, [they] ask [students to] write to help [students] grow and [develop critical thinking skills]" |src|'head_writing_growth_2026'|'short'|. At the same time I beleive that education for I believe that this is essential to consider in any decision on AI in education — What are we trying to teach students, and why is this important to their lives
+Despite the sarcastic nature of Mr. Bredderman's reply, I believe that this hits the nail on the head: educators don't ask students to "write a pop-culture, analysis for the sake of there being one more pop-culture analysis in the world, [they] ask [students to] write to help [students] grow and [develop critical thinking skills]" |src|'head_writing_growth_2026'|'short'|. 
+
+I believe that we cannot say 'Because AI can do it, students shouldn't' but that doesn't mean that changes do not need to be made. There are many artifacts that remain in the modern education system that have little pedagogical value, this can be a massive waste of student and faculty time. Noriko Arai a AI expert and researcher at the Japanese National Institute of Informatics was asked if she thought there needed to be a urgent revolution in education considering the approaching wave of AI, her response provides a guiding ideas for discussions on this topic.
+
+> Yes, yes, yes. Because we humans can understand the meaning. That is something which is very, very lacking in AI. But most of the students just pack the knowledge without understanding the meaning of the knowledge, so that is not knowledge, that is just memorizing, and AI can do the same thing. So we have to think about a new type of education.
+|src|'arai_robot_exam_2017'|'short'|.
+
+
+
+I believe that this discussion leads to a question that is essential to consider in any decision on AI or education in general — *What are we trying to teach students, and why is this important to their lives?* This is a question that does not have a one size fits all answer.
+
+As students we must learn to ask that question of ourselves. You will be presented with opportunities to use AI in your schoolwork, it can be a valuable tool that will free up your time to work on other projects, learn more information, and improve yourself, but your use of AI can never come at the expense of the 
 
 
 

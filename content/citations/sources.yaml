@@ -22,3 +22,11 @@ sources:
     title: "Classroom lecture on the purpose of academic writing and critical thinking"
     type: "lecture"
     publisher: "BYU-Idaho"
+
+  - id: "arai_robot_exam_2017"
+    author: "Arai, Noriko"
+    year: 2017
+    title: "Can a robot pass a university entrance exam?"
+    url: "https://www.ted.com/talks/noriko_arai_can_a_robot_pass_a_university_entrance_exam"
+    type: "video"
+    publisher: "TED Conferences"
