@@ -30,3 +30,11 @@ sources:
     url: "https://www.ted.com/talks/noriko_arai_can_a_robot_pass_a_university_entrance_exam"
     type: "video"
     publisher: "TED Conferences"
+
+  - id: "wikileaks_collateral_murder"
+    author: "WikiLeaks"
+    year: 2010
+    title: "Collateral Murder"
+    url: "https://collateralmurder.wikileaks.org/"
+    type: "website"
+    publisher: "WikiLeaks"
