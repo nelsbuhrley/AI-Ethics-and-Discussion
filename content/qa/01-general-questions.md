@@ -22,6 +22,6 @@ What I believe is clear: blanket bans are largely unenforceable and may simply t
 
 ## How can AI be used to find new ideas?
 
-AI should not be viewed as a machine that "thinks" of ideas for us, but rather as a highly efficient "sandbox" for discovery. Creative breakthroughs are rarely the result of a single moment of inspiration; instead, they are "found" through a process of play and experimentation within a set of constraints |src|'ok_go_ideas'|'TED Talk'|.
+AI should not be viewed as a machine that "thinks" of ideas for us, but rather as a highly efficient "sandbox" for discovery. Creative breakthroughs are rarely the result of a single moment of inspiration; instead, they are "found" through a process of play and experimentation within a set of constraints |src|'ok_go_ideas'|'short'|.
 
 By using AI, we can build these sandboxes at an unprecedented scale. AI allows us to rapidly iterate through thousands of permutations and "what-if" scenarios that would be impossible to explore manually. The goal isn't to let the AI provide the final answer, but to use it to generate the unexpected collisions and "wonderful" surprises that a human can then recognize, refine, and claim as a new idea.
