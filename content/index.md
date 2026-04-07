@@ -24,14 +24,14 @@ The question before us isn't whether AI belongs in schools, the answer to that i
 
 ## What I Hope For
 
-I hope we build an educational ecosystem where AI:
+I hope we build an educational ecosystem where:
 
-1. Frees teachers to do what only humans can do — inspire, mentor, and connect.
-2. Provides students with scaffolded support that meets them where they are.
-3. Remains transparent and accountable in its recommendations and assessments.
-4. Is introduced with equity at the center, not as an afterthought.
-
-Explore the topics below to read my more detailed thoughts, and scroll down to the Q&A section for answers to common questions.
+1. AI is utilized to further critical thinking.
+2. Educators use AI in creating pedagogically sound curriculum, freeing their time to inspire, mentor and connect with their students.
+3. Students are able to 'punch above their weight' and make valuable contributions to the world by utilizing AI.
+4. Proficiency in in using AI is a valued aspect of education
 
 > *"The goal of education is not to fill a bucket but to light a fire."*
 > — often attributed to W.B. Yeats
+
+Explore the topics below to read my more detailed thoughts, and scroll down to the Q&A section for answers to common questions.
