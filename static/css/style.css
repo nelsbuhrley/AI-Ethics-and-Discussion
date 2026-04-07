@@ -624,6 +624,47 @@ button { cursor: pointer; font-family: inherit; }
   font-size: 0.95rem;
 }
 
+/* When navigating to /citations.html#cite-..., briefly highlight the entry */
+.citation-entry:target,
+.citation-entry:target + dd {
+  border-radius: var(--radius-sm);
+}
+
+.citation-entry:target {
+  animation: citation-target 2.4s ease-out 1;
+}
+
+.citation-entry:target + dd {
+  animation: citation-target-detail 2.4s ease-out 1;
+}
+
+@keyframes citation-target {
+  0% {
+    background: var(--clr-brand-light);
+    box-shadow: 0 0 0 6px var(--clr-brand-light);
+  }
+  60% {
+    background: var(--clr-brand-light);
+    box-shadow: 0 0 0 6px var(--clr-brand-light);
+  }
+  100% {
+    background: transparent;
+    box-shadow: 0 0 0 0 var(--clr-brand-light);
+  }
+}
+
+@keyframes citation-target-detail {
+  0% {
+    box-shadow: 0 0 0 6px var(--clr-brand-light);
+  }
+  60% {
+    box-shadow: 0 0 0 6px var(--clr-brand-light);
+  }
+  100% {
+    box-shadow: 0 0 0 0 var(--clr-brand-light);
+  }
+}
+
 /* ── Utility / scroll ───────────────────────────────────────── */
 :focus-visible { outline: 3px solid var(--clr-brand); outline-offset: 3px; }
 
