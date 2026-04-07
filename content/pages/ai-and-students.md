@@ -22,6 +22,8 @@ I recently saw a post online that made me chuckle
 
 |src|'mccoy_bredderman_ai'|'short'|
 
-Despite the sarcastic nature of Mr. Bredderman's reply I believe that this hits the nail on the head educators don't ask students to " write a Pop-Culture, analysis for the sake of there being one more pop culture analysis in the world, It is to help [students] grow and [develop critical thinking skills]" |src|'head_writing_growth_2026'|'short'|
+Despite the sarcastic nature of Mr. Bredderman's reply I believe that this hits the nail on the head educators don't ask students to "write a Pop-Culture, analysis for the sake of there being one more pop culture analysis in the world, [they] ask [students to] write to help [students] grow and [develop critical thinking skills]" |src|'head_writing_growth_2026'|'short'|. At the same time I beleive that education for I believe that this is essential to consider in any decision on AI in education — What are we trying to teach students, and why is this important to their lives
+
+
 
 
