@@ -22,3 +22,6 @@ I recently saw a post online that made me chuckle
 
 |src|'mccoy_bredderman_ai'|'long'|
 
+Despite the sarcastic nature of Mr. Bredderman's reply I believe that this hits the nail on the head educators don't ask students to " write a Pop-Culture, analysis for the sake of there being one more pop culture analysis in the world, It is to help [students] grow and [develop critical thinking skills]" |src|'head_writing_growth_2026'|'short'|
+
+

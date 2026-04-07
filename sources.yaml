@@ -15,3 +15,11 @@ sources:
     url: "https://www.threads.com/@raywatdeonandan/post/DWHx6wGFSyd/"
     type: "social media post"
     publisher: "Threads"
+
+  - id: "head_writing_growth_2026"
+    author: "Head, Samuel"
+    year: 2026
+    title: "Classroom lecture on the purpose of academic writing and critical thinking"
+    url: "https://www.byui.edu/directories/samuel-head"
+    type: "lecture"
+    publisher: "BYU-Idaho"
