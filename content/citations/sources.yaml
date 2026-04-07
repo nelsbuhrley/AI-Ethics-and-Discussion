@@ -46,3 +46,10 @@ sources:
     url: "https://www.ted.com/talks/ok_go_how_to_find_a_wonderful_idea"
     type: "video"
     publisher: "TED Conferences"
+
+  - id: "educator_interview_2026"
+    author: "Unnamed Educator"
+    year: 2026
+    title: "Interview with an educator about the impact of AI on teaching and learning"
+    type: "interview"
+    publisher: "Confidential"
