@@ -322,7 +322,8 @@ button { cursor: pointer; font-family: inherit; }
   font-style: italic;
   color: var(--clr-muted);
 }
-.prose blockquote p { margin-bottom: 0; }
+.prose blockquote p { margin-bottom: 0.8em; }
+.prose blockquote p:last-child { margin-bottom: 0; }
 .prose code {
   background: var(--clr-surface);
   border: 1px solid var(--clr-border);

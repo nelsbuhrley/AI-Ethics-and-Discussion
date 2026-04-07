@@ -32,11 +32,15 @@ I recently interviewed a teacher about their experience using Amira, an AI-based
 
 > Amira is an AI-based platform designed to assess students’ interactive reading skills. The students are able to read aloud and Amira listens to them. Amira was presented to me at the start of the school year with excitement and enthusiasm. While it appears promising on paper, especially with features like self-grading and adaptive testing, it presents several challenges in practice.
 > 
+>
 > Initially, the test results were often inaccurate. Although reliability has improved over time, the scores are still not consistently dependable. I have also had students’ scores fail to save, which forces them to retake the test and leaves them annoyed and frustrated. Because the scores are not always accurate, Amira includes a self-grading feature that allows teachers to review student recordings and override scores when needed. Instead of saving time, this feature has added to my workload and increased stress.
 > 
+>
 > My students struggle with taking Amira because the microphones do not always pick up their voices, as a result the students are often annoyed with Amira and take the test much less seriously. The time spend on trying to log into the Amira tutor and get stated large compared to the actual reading that is happening. A computer test and a computer teacher does not keep the attention of the students for long, resulting in test score that do not accurately represent the child.
 > 
+>
 > Overall Amira interrupts instructions time, is unreliable and it just adds more complexity to an already full workload.
+>
 >|src|'educator_interview_2026'|'short'|
 
 The biggest problem with the implications of Amira was administrations decisions regarding the use of the tool. The administration was very excited about the potential of Amira and wanted to use it as a major part of their reading instruction. However, they did not provide enough training or support for teachers to effectively use the tool. Some administrators tell the teachers regularly that the Amira scores are accurate and that they need to be used to guide instruction, when that is obviously not the case.
