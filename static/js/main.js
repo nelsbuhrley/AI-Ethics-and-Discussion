@@ -84,8 +84,14 @@
 (function () {
   const current = window.location.pathname;
   document.querySelectorAll('.nav-link').forEach((link) => {
+    link.classList.remove('active');
     const href = link.getAttribute('href');
-    if (href && href !== '/' && current.startsWith(href)) {
+    if (!href) return;
+    if (href === '/') {
+      if (current === '/' || current === '' || current.endsWith('index.html')) {
+        link.classList.add('active');
+      }
+    } else if (current.startsWith(href)) {
       link.classList.add('active');
     }
   });
