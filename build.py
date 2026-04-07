@@ -240,6 +240,8 @@ def load_qa_items(qa_dir: Path) -> list[dict]:
             lines = section.split("\n", 1)
             question = lines[0].strip().rstrip("?") + "?"
             answer_md = lines[1].strip() if len(lines) > 1 else ""
+            answer_md = process_internal_links(answer_md)
+            answer_md = process_citations_in_markdown(answer_md)
             items.append({"question": question, "answer": _convert_markdown(answer_md)})
 
     return items

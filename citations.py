@@ -113,30 +113,34 @@ class CitationManager:
         Returns:
             Tuple of (processed_content, list_of_used_source_ids)
         """
-        # Pattern to match |src|'id'|'format'|
-        pattern = r"\|src\|'([^']+)'\|'(short|long)'\|"
+        # Pattern to match |src|'id'|'format_or_label'|
+        pattern = r"\|src\|'([^']+)'\|'([^']+)'\|"
         
         used_sources = []
         
         def replace_citation(match):
             source_id = match.group(1)
-            format_type = match.group(2)
+            format_spec = match.group(2).strip()
             
             # Track this source
             if source_id not in used_sources:
                 used_sources.append(source_id)
+
+            if source_id not in self.sources:
+                return f"[Citation not found: {source_id}]"
             
             # Format appropriately
-            if format_type == 'short':
+            format_key = format_spec.lower()
+            if format_key == 'short':
                 label = self.format_short(source_id)
-            else:  # long
+            elif format_key == 'long':
                 label = self.format_long(source_id)
+            else:
+                # Custom label: |src|'id'|'Some Label'|
+                label = format_spec or self.format_short(source_id)
 
-            if source_id in self.sources:
-                href = self._citation_href(source_id)
-                return f"[{label}]({href})"
-
-            return label
+            href = self._citation_href(source_id)
+            return f"[{label}]({href})"
         
         processed = re.sub(pattern, replace_citation, content)
         return processed, used_sources
@@ -213,7 +217,7 @@ def process_all_markdown_files(content_dir: str = "content",
             content = f.read()
         
         # Extract citations but don't replace yet (just for collecting)
-        pattern = r"\|src\|'([^']+)'\|'(short|long)'\|"
+        pattern = r"\|src\|'([^']+)'\|'([^']+)'\|"
         matches = re.findall(pattern, content)
         for source_id, _ in matches:
             all_citations.add(source_id)
