@@ -34,4 +34,8 @@ I hope we build an educational ecosystem where:
 > *"The goal of education is not to fill a bucket but to light a fire."*
 > — often attributed to W.B. Yeats
 
-Explore the topics below to read my more detailed thoughts, and scroll down to the Q&A section for answers to common questions.
+### What can you expect
+
+On this page I have a two fold audience, students and educators. Some of the sections will be targeted to one groupe or the other, but I believe that these questions and topics need to be considered by all in the education system.
+
+*Explore the topics below to read my more detailed thoughts, and scroll down to the Q&A section for answers to common questions.*
