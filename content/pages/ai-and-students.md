@@ -26,8 +26,7 @@ Despite the sarcastic nature of Mr. Bredderman's reply, I believe that this hits
 
 I believe that we cannot say 'Because AI can do it, students shouldn't' but that doesn't mean that changes do not need to be made. There are many artifacts that remain in the modern education system that have little pedagogical value, this can be a massive waste of student and faculty time. Noriko Arai a AI expert and researcher at the Japanese National Institute of Informatics was asked if she thought there needed to be a urgent revolution in education considering the approaching wave of AI, her response provides a guiding ideas for discussions on this topic.
 
-> Yes, yes, yes. Because we humans can understand the meaning. That is something which is very, very lacking in AI. But most of the students just pack the knowledge without understanding the meaning of the knowledge, so that is not knowledge, that is just memorizing, and AI can do the same thing. So we have to think about a new type of education.
-|src|'arai_robot_exam_2017'|'short'|.
+> Yes, yes, yes. Because we humans can understand the meaning. That is something which is very, very lacking in AI. But most of the students just pack the knowledge without understanding the meaning of the knowledge, so that is not knowledge, that is just memorizing, and AI can do the same thing. So we have to think about a new type of education.|src|'arai_robot_exam_2017'|'short'|.
 
 
 
