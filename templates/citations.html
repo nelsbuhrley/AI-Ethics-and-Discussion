@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<!-- ── Page header ───────────────────────────────────────────── -->
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ base_url }}/" class="breadcrumb-link">Home</a>
+      <span class="breadcrumb-sep" aria-hidden="true">›</span>
+      <span class="breadcrumb-current" aria-current="page">{{ page_title }}</span>
+    </nav>
+    <h1 class="page-hero-title">{{ page_title }}</h1>
+  </div>
+</section>
+
+<!-- ── Citations content ─────────────────────────────────────── -->
+<section class="content-section">
+  <div class="container container--narrow">
+    <article class="prose">
+      {{ citations | safe }}
+    </article>
+  </div>
+</section>
+
+<!-- ── Page navigation ───────────────────────────────────────── -->
+<div class="page-footer-nav">
+  <div class="container">
+    <a href="{{ base_url }}/" class="btn btn-outline btn-sm">
+      <span aria-hidden="true">←</span> Back to Home
+    </a>
+  </div>
+</div>
+
+{% endblock %}

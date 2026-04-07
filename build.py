@@ -46,6 +46,8 @@ import markdown as md_lib
 import yaml
 from jinja2 import Environment, FileSystemLoader
 
+from citations import CitationManager
+
 try:
     import mammoth
     HAS_MAMMOTH = True
@@ -60,6 +62,7 @@ CONTENT_DIR  = Path("content")
 TEMPLATES_DIR = Path("templates")
 STATIC_DIR   = Path("static")
 OUTPUT_DIR   = Path("_site")
+SOURCES_FILE = Path("sources.yaml")
 
 CONTENT_EXTENSIONS = {".md", ".markdown", ".txt", ".docx"}
 
@@ -73,6 +76,9 @@ if _gh_repo:
 else:
     BASE_URL = os.environ.get("SITE_BASE_URL", "")
 
+# Initialize citation manager
+citation_manager = CitationManager(str(SOURCES_FILE))
+
 # ---------------------------------------------------------------------------
 # Markdown processor
 # ---------------------------------------------------------------------------
@@ -84,10 +90,23 @@ _md = md_lib.Markdown(
     },
 )
 
+# Track all citations used in the entire site
+_all_citations_used = set()
+
 
 def _convert_markdown(text: str) -> str:
     _md.reset()
     return _md.convert(text)
+
+
+def process_citations_in_markdown(text: str) -> str:
+    """
+    Process citation markers in text and replace with formatted citations.
+    Also tracks all citations for the bibliography.
+    """
+    processed, used = citation_manager.process_content(text)
+    _all_citations_used.update(used)
+    return processed
 
 
 # ---------------------------------------------------------------------------
@@ -137,6 +156,7 @@ def file_to_html(path: Path) -> tuple[dict, str]:
         raw = path.read_text(encoding="utf-8")
         meta, body = parse_front_matter(raw)
         body = process_internal_links(body)
+        body = process_citations_in_markdown(body)  # Process citations
         return meta, _convert_markdown(body)
 
     if ext == ".docx" and HAS_MAMMOTH:
@@ -342,6 +362,21 @@ def build() -> None:
             )
             (page_dir / "index.html").write_text(rendered, encoding="utf-8")
             print(f"  ✓  pages/{page['slug']}/index.html")
+
+    # ── Citations page ─────────────────────────────────────────────────────
+    if _all_citations_used:
+        citations_html = citation_manager.generate_bibliography(list(_all_citations_used))
+        tmpl = env.get_template("citations.html")
+        rendered = tmpl.render(
+            **common_ctx,
+            page_title="Sources",
+            citations=citations_html,
+            pages=nav_pages,
+            is_home=False,
+            current_slug="sources",
+        )
+        (OUTPUT_DIR / "citations.html").write_text(rendered, encoding="utf-8")
+        print("  ✓  citations.html")
 
     print(f"\nSite built → {OUTPUT_DIR}/  (BASE_URL='{BASE_URL}')")
 

@@ -19,6 +19,8 @@ This is not an argument against AI in education — it's an argument for **inten
 
 Students are among the most vulnerable populations when it comes to data privacy. They are minors. They cannot fully understand or consent to how their data is used. And their school records — which AI systems inevitably interact with — are protected by law (FERPA in the United States) for good reason.
 
+Recent work on AI ethics |src|'kaplan_ethics'|'short'| emphasizes that ethical frameworks must prioritize data protection in educational contexts.
+
 Key questions every school should ask before adopting an AI tool:
 
 1. **What data is collected?** Does the tool log keystrokes, time on task, or written content?

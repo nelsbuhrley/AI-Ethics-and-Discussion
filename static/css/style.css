@@ -588,6 +588,42 @@ button { cursor: pointer; font-family: inherit; }
   .qa-trigger { padding: 1rem 1.1rem; font-size: 0.9375rem; }
 }
 
+/* ── Bibliography / Citations ──────────────────────────────── */
+.citations {
+  margin: 2rem 0;
+}
+
+.bibliography {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.citation-entry {
+  font-weight: 600;
+  color: var(--clr-dark);
+  margin-bottom: 0.25rem;
+  scroll-margin-top: 100px;
+}
+
+.citation-entry::before {
+  content: "";
+  display: block;
+  height: 0.5px;
+  background: var(--clr-border);
+  margin-bottom: 0.5rem;
+}
+
+.bibliography dd {
+  margin-left: 0;
+  color: var(--clr-text);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
 /* ── Utility / scroll ───────────────────────────────────────── */
 :focus-visible { outline: 3px solid var(--clr-brand); outline-offset: 3px; }
 

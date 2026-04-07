@@ -1,0 +1,16 @@
+sources:
+  - id: "openai_gpt4"
+    author: "OpenAI"
+    year: 2023
+    title: "GPT-4 Technical Report"
+    url: "https://cdn.openai.com/papers/gpt-4.pdf"
+    type: "report"
+    publisher: "OpenAI"
+
+  - id: "kaplan_ethics"
+    author: "Kaplan, Andreas"
+    year: 2022
+    title: "The Ethics of Artificial Intelligence: A Critical Review"
+    url: "https://example.com/ethics"
+    type: "article"
+    publisher: "Journal of Ethics"

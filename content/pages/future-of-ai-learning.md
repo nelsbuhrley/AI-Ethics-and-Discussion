@@ -17,7 +17,7 @@ We'll also see the emergence of **AI literacy** as a core component of digital l
 
 Over the next decade, I expect:
 
-- **Intelligent tutoring systems** that provide genuinely personalized instruction across subjects, adapting not just to pace but to learning style, motivation, and emotional state.
+- **Intelligent tutoring systems** that provide genuinely personalized instruction across subjects, adapting not just to pace but to learning style, motivation, and emotional state. Advanced language models like |src|'openai_gpt4'|'short'| are already laying groundwork for such capabilities.
 - **Automated curriculum alignment** tools that help teachers map lessons to standards and identify gaps.
 - **AI research assistants** that can synthesize literature, flag methodological weaknesses, and suggest new questions — transforming how students at all levels engage with primary sources.
 - **Multimodal learning** experiences that integrate text, video, simulation, and AI conversation in seamlessly adaptive ways.
