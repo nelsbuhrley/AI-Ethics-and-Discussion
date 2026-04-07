@@ -31,14 +31,6 @@ sources:
     type: "video"
     publisher: "TED Conferences"
 
-  - id: "wikileaks_collateral_murder"
-    author: "WikiLeaks"
-    year: 2010
-    title: "Collateral Murder"
-    url: "https://collateralmurder.wikileaks.org/"
-    type: "website"
-    publisher: "WikiLeaks"
-
   - id: "ok_go_ideas"
     author: "Kulash, Damian"
     year: 2017

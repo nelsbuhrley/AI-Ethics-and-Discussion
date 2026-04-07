@@ -8,7 +8,7 @@ subtitle: Reflections on technology, learning, and the humans.
 
 Artificial Intelligence is changing the world in ways that few could have predicted even five years ago. It feels like we are living in the future! I am a strong advocate for AI usage and believe that machine learning algorithms have a great capacity to bless lives everywhere. That being said, my support of AI is not blind to the many issues that arise from these new technologies.
 
-Some major decisions revolve around creativity, intellectual property, and education, while there is much to be said about the first two, I am currently a college student and my wife is a educator and so I have chosen to focus on AI in higher education.
+Some major decisions revolve around creativity, intellectual property, and education, while there is much to be said about the first two, I am currently a college student so I have chosen to focus on AI in higher education.
 
 ## A blessing and a curse
 

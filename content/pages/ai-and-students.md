@@ -32,7 +32,7 @@ This leads to a question that is essential to consider in any decision on AI or 
 
 ## Emotional Impact
 
-Recently I was writing a piece on human rights and transparency in the intelligence arm United States DHS, over the course of my research I was studying the impact of [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) and [Wiki Leaks](https://wikileaks.org/) on government transparency. I came across a video that showed the murder of 2 journalists and 2 children by US air assets |src|'wikileaks_collateral_murder'|'short'|. As I was watching the video I cried, I then continued to write with emotion and when it came time to present my research I did so with passion. I already believed that transparency by the government was important, This experience cemented in me  why it is important.
+Recently I was writing a piece on human rights and transparency in the intelligence arm United States DHS, over the course of my research I was studying the impact of [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) and [Wiki Leaks](https://wikileaks.org/) on government transparency. I came across a video that showed the murder of 2 journalists and 2 children by US air assets. As I was watching the video I cried, I then continued to write with emotion and when it came time to present my research I did so with passion. I already believed that transparency by the government was important, This experience cemented in me  why it is important.
 
 # What Should Students Do
 

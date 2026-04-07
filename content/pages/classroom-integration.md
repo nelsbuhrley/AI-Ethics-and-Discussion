@@ -3,19 +3,6 @@ title: Classroom Integration
 description: How AI tools are being woven into everyday teaching and learning — the practical realities.
 ---
 
-I recently interviewed a teacher about their experience using Amira, an AI-based reading assessment tool, in their classroom. They shared there experience with Amira, which was presented at the start of the school year with excitement and enthusiasm. While it appears promising on paper—especially with features like self-grading and adaptive testing—it presents several challenges in practice. They shared there experience with me below:
-
-> Amira is an AI-based platform designed to assess students’ interactive reading skills. The students wear headphones with a mic to allow for them to read aloud and Amira listens to them. Amira was presented at the start of the school year with excitement and enthusiasm. While it appears promising on paper—especially with features like self-grading and adaptive testing—it presents several challenges in practice.
-> 
-> Initially, the test results were often inaccurate, though they have improved over time and become more reliable. However, the scores are still not consistently accurate. I’ve also had students test score not save resulting in the student having to take the test again, causing the student to be annoyed and frustrated. Because the test scores are not accurate all the time Amira includes a self-grading option that allows teachers to listen to students’ recordings and override scores when needed. Rather than saving time, this feature added to my workload and created more stress.
-> 
-> Additionally, the technology can be unreliable, and there are various tips and tricks required to make the test run smoothly. These workarounds are often inconsistent and unintuitive, which ultimately undermines the test’s validity and reliability. My students struggle with taking Amira because the microphones do not always pick up their voices, and the students are often times annoyed with Amira and they take the test much less seriously. The time spend on trying to log into the Amira tutor and get stated is far too great for the ratio to actual reading that is happening. A computer test and a computer teacher dos notes that captivate a student for long, resulting in test score that do not accurately represent the child.
-> 
-> Amira interrupts instructions time. Small groups is the most effective way to give the test and help students perform well. The problem is that testing in small groups is almost impossible if you want to maximize instructional time. Students do not finish the test at the same time, which makes it difficult to have any other activity going on for the rest of the class. If a teacher teaches half the class while the other half takes the test, students start missing instruction. On top of that, some students finish before it’s time to switch groups, which makes it hard for me as the teacher to provide meaningful activities for them. It just adds more complexity to an already full workload.
->|src|'educator_interview_2026'|'short'|
-
----
-
 
 # Classroom Integration
 
@@ -37,13 +24,26 @@ One of the hardest challenges in teaching is meeting students where they are. AI
 AI tools can provide students with instant, non-judgmental feedback on drafts — flagging unclear sentences, suggesting stronger evidence, or asking Socratic questions. This frees the teacher to focus face-to-face feedback time on higher-order thinking.
 
 ### Administrative Efficiency
-From writing sub plans to summarizing parent communications, AI reduces the invisible overhead of teaching that often extends the workday well into evening hours.
+From writing sub plans to summarizing emails, AI reduces the invisible overhead of teaching that often extends the workday well into evening hours.
 
-## What Doesn't Work (Yet)
+## A word of caution
 
-AI struggles with **nuance, context, and relationship**. It cannot read the room. It cannot sense that a student's flat affect today is because something difficult happened at home. It cannot make the real-time decision to abandon today's plan because the class stumbled onto a genuinely rich tangent.
+I recently interviewed a teacher about their experience using Amira, an AI-based reading assessment tool, in their classroom. They shared there experience with Amira, which was presented at the start of the school year with excitement and enthusiasm. While it appears promising on paper—especially with features like self-grading and adaptive testing—it presents several challenges in practice. They shared there experience with me below:
 
-It also struggles with accuracy in specialized domains. AI-generated content in science, history, and mathematics requires careful fact-checking — a skill that itself needs to be taught to students using these tools.
+> Amira is an AI-based platform designed to assess students’ interactive reading skills. The students are able to read aloud and Amira listens to them. Amira was presented to me at the start of the school year with excitement and enthusiasm. While it appears promising on paper, especially with features like self-grading and adaptive testing, it presents several challenges in practice.
+> 
+> Initially, the test results were often inaccurate. Although reliability has improved over time, the scores are still not consistently dependable. I have also had students’ scores fail to save, which forces them to retake the test and leaves them annoyed and frustrated. Because the scores are not always accurate, Amira includes a self-grading feature that allows teachers to review student recordings and override scores when needed. Instead of saving time, this feature has added to my workload and increased stress.
+> 
+> My students struggle with taking Amira because the microphones do not always pick up their voices, as a result the students are often annoyed with Amira and take the test much less seriously. The time spend on trying to log into the Amira tutor and get stated large compared to the actual reading that is happening. A computer test and a computer teacher does not keep the attention of the students for long, resulting in test score that do not accurately represent the child.
+> 
+> Overall Amira interrupts instructions time, is unreliable and it just adds more complexity to an already full workload.
+>|src|'educator_interview_2026'|'short'|
+
+The biggest problem with the implications of Amira was administrations decisions regarding the use of the tool. The administration was very excited about the potential of Amira and wanted to use it as a major part of their reading instruction. However, they did not provide enough training or support for teachers to effectively use the tool. Some administrators tell the teachers regularly that the Amira scores are accurate and that they need to be used to guide instruction, when that is obviously not the case.
+
+Amira has the potential to be a useful tool for assessing students’ reading skills, but it is not a replacement for human judgment and interaction. It should be used as a supplement to traditional instruction, not as a primary method of teaching. 
+
+This experience highlights the importance of thoughtful integration of AI tools in the classroom. It is not enough to simply adopt new technology — we need to consider how it fits into the existing ecosystem of teaching and learning, and ensure that educators are supported in using it effectively.
 
 ## A Framework for Thoughtful Integration
 
@@ -56,6 +56,4 @@ I suggest thinking about AI integration along two axes:
 
 Start with low-stakes uses where mistakes are recoverable. As confidence grows, move toward higher-stakes applications — always with human judgment as the final check.
 
-## Looking Ahead
 
-See also my thoughts on [[Ethical Considerations]] and [[Future of AI Learning]] for context on the broader challenges and opportunities that classroom integration sits within.
